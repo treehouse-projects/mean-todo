@@ -10,3 +10,6 @@ This is the course repo for [Building a MEAN Application](https://teamtreehouse.
 1. Follow along with course and hack away
 1. `git commit -am "commit some cool changes"`
 1. `git push origin someCoolBranch` pushes changes to your fork. Great for sharing code and asking for comments on commits.
+
+
+This is the new read.me file.
