@@ -4,7 +4,10 @@
   "description": "This is the course repo for [Building a MEAN Application](https://teamtreehouse.com/library/building-a-mean-application) on [Treehouse](https://teamtreehouse.com/) by Huston Hedinger and Ken Howard.",
   "main": "src/app.js",
   "dependencies": {
-    "express": "4.14.0"
+    "angular": "^1.5.8",
+    "body-parser": "1.15.2",
+    "express": "4.14.0",
+    "mongoose": "4.6.1"
   },
   "devDependencies": {},
   "scripts": {

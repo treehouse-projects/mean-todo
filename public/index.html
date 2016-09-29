@@ -6,9 +6,10 @@
   <link rel="stylesheet" href="/styles/main.css" type="text/css">
 </head>
 <body ng-app="todoListApp">
-  
+  <ng-include src="'templates/navbar.html'"></ng-include>
+
   <h1>My TODOs!</h1>
-  
+
   <div class="list" ng-controller="mainCtrl">
     <div class="add">
       <a href="#" ng-click="addTodo()">
@@ -17,12 +18,8 @@
     <todo></todo>
    </div>
 
-  
-  <script src="/vendor/angular.js"></script>
-  <script src="/scripts/app.js"></script>
-  <script src="/scripts/controllers/main.js"></script>
-  <script src="/scripts/controllers/todo.js"></script>
-  <script src="/scripts/services/data.js"></script>
-  <script src="/scripts/directives/todo.js"></script>
+
+  <script src="/scripts/vendor.bundle.js"></script>
+  <script src="/scripts/todo.bundle.js"></script>
 </body>
 </html>

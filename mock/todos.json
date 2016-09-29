@@ -1,0 +1,16 @@
+{
+  "todosList": [
+    {
+      "name": "build a robot"
+    },
+    {
+      "name": "fight dragons"
+    },
+    {
+      "name": "learn how to sing"
+    },
+    {
+      "name": "practice the piano"
+    }
+  ]
+}
